@@ -1,17 +1,16 @@
-.white-background {
+.background-container {
   background-color: white;
-  padding: 20px;
+  padding: 65px 45px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 p {
   margin: 0 !important;
 }
 .main-container {
-  background-color: #353535;
+  background-color: black;
   width: 100%;
   margin: auto;
-  /* min-width: 420px; */
   height: 100vh;
   display: grid;
   place-content: center;
@@ -63,6 +62,14 @@ input:active {
 .scroll {
   max-width: 68px;
   overflow: hidden;
+}
+
+@media(max-width:450px){
+    .background-container {
+      padding: 45px 15px;
+      margin: 5px;
+      border-radius: 14px;
+    }
 }
 
 @media (max-width: 360px) {

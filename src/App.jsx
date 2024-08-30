@@ -206,7 +206,8 @@ function App() {
   };
   return (
     <div className="main-container">
-      <div className="white-background">
+      <h1 className="text-center text-white mb-5">Currency Converter APP</h1>
+      <div className="background-container">
         <CurrencySelect
           amount={amount}
           setAmount={setAmount}
